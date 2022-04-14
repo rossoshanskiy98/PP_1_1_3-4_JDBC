@@ -6,7 +6,6 @@ import jm.task.core.jdbc.util.Util;
 import java.util.List;
 
 public interface UserDao {
-    static Util util = Util.getInstance();
 
     void createUsersTable();
 
